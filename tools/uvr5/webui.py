@@ -202,7 +202,7 @@ with gr.Blocks(title="UVR5 WebUI") as app:
 app.queue().launch(#concurrency_count=511, max_size=1022
     server_name="0.0.0.0",
     inbrowser=True,
-    share=is_share,
+    share=True,
     server_port=webui_port_uvr5,
     quiet=True,
 )
